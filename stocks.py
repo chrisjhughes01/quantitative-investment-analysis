@@ -34,4 +34,4 @@ plt.show()
 
 max_negative_length = max(spx_max_negative_years)
 max_negative_start_date = df['Date'][spx_max_negative_years.index(max_negative_length)]
-print('The longest the S&P drawdown was', round(max_negative_length, 2), 'years starting on', max_negative_start_date.date())
+print('The longest time period of negative profits was', round(max_negative_length, 2), 'years starting on', max_negative_start_date.date())
